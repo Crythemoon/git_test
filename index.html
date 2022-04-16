@@ -1,11 +1,32 @@
+<!-- First, we have to define what time of code we are using, in this case we are
+    using HTML so we have to define it by using <!DOCTYPE html> to use HTML -->
 <!DOCTYPE html>
+
+<!-- This line defines two things, first is that this is where all your HTMl
+    elements will be by using the element <html> but we are also defining 
+    what is our main language of use for accomodation for text to speech
+    so we use <html lang="en"> "en" for english-->
 <html lang="en">
 
+
+
+    <!-- This is the first element where we put important meta-information
+        about the webpage for it to run correctly. Nothing inside <head>
+        will show up on the website-->
     <head>
+
+        <!-- We should always have the meta tag for the charset encoding of the webpage
+            for it to display special symbols and characters from different language
+            correctly in the browser-->
         <meta charset="utf-8">
+
+        <!-- The <Title> element is used to give webpages a human-readable tiltle-->
         <title>My first Webpage</title>
     </head>
 
+
+
+    <!-- The <body> element is where all of your content will be displayed -->
     <body>
         <h1>Hello World</h1>
         <p>hello this is my second webpage cause i don't remember how to use html and css like i did before</p>
@@ -19,15 +40,15 @@
         <h4>h4</h4>
         <h5>h5</h5>
         <h6>h6</h6>
-        <p><strong>bold</strong></p>
         
         <!-- So we need a <p> even before the <strong> or not it will be 
             on the same lines as all the other elements-->
-       <p><em>not straight</em></p> 
+        <p><em>not straight</em></p> 
+        <p><strong>bold</strong></p>
 
         <!-- We use <ul> when we want a list with no order and <ol> when we need an
             order within the list. Also, we use the tag <li> in the list tag for each'
-                item-->
+            item-->
                 <ul>
                     <li>Item 1</li>
                     <li>Item 2</li>
@@ -36,6 +57,8 @@
                     <li>Item 1</li>
                     <li>Item 2</li>
                 </ol>
+
+
         
         <!-- To create a link in HTML, we need to use a anchor text. An anchor text
             <a> need a link to forward the text to in term of <a href="link">text</a> -->
@@ -51,14 +74,24 @@
             <p><a href="pages/about.html">This is a relative link</a></p>
             <!-- Relative link-->
 
-            <!-- We can use the link about.html fine, but when we want to keep the
-                project organized, we can make a new directory and put the html files
-                in and all we have to do to change the link is to put
-                "directoryname/filename" for the link to work -->
+        <!-- We can use the link about.html fine, but when we want to keep the
+            project organized, we can make a new directory and put the html files
+            in and all we have to do to change the link is to put
+            "directoryname/filename" for the link to work -->
 
-            <!-- When we want to display an image in HTML, we use the <img src="Image">
-                elements-->
+
+
+        <!-- When we want to display an image in HTML, we use the <img src="Image">
+            elements-->
             <img src="image/tree-736885__480.jpg">
+
+        <!-- Same as having a relative link, we have to save the image in a folder
+            within the directory and nagivigate to the image link for it to show
+            up in HTML-->
+
+
+
+        
 
     </body>
 
